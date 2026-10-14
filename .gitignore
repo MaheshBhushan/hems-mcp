@@ -6,3 +6,5 @@ __pycache__/
 dist/
 artifacts/
 .env
+
+.code-health-cache/
