@@ -1,0 +1,30 @@
+{
+  "dataset": "synthetic",
+  "seed": 42,
+  "days": 14,
+  "interval_minutes": 60,
+  "backend": "seasonal",
+  "origins": 3,
+  "horizon_steps": 24,
+  "metrics": {
+    "load_kw": {
+      "sample_count": 72,
+      "mae_kw": 0.14336379572478186,
+      "rmse_kw": 0.17785491660084132,
+      "energy_bias_kwh": -0.5752924497539915
+    },
+    "solar_kw": {
+      "sample_count": 72,
+      "mae_kw": 0.261090860778438,
+      "rmse_kw": 0.5466302424708648,
+      "energy_bias_kwh": 7.916128827352985
+    }
+  },
+  "charging": {
+    "status": "feasible",
+    "requested_energy_kwh": 10.0,
+    "delivered_energy_kwh": 10.0,
+    "charging_energy_kwh": 11.11111111111111,
+    "scheduled_peak_import_kw": 2.4265040573077385
+  }
+}
